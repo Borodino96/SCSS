@@ -1,0 +1,533 @@
+.logo {
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.logo-part1 {
+  width: 100px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgb(5, 5, 110);
+  transition: all 0.5s ease-in-out;
+}
+
+.logo-part2 {
+  width: 100px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgb(5, 5, 110);
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  left: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(0deg, rgb(255, 99, 71), rgb(255, 160, 122));
+}
+
+.social {
+  margin-top: 20vh;
+  display: flex;
+  background: linear-gradient(to right, rgb(0, 191, 255), rgb(100, 149, 237));
+}
+
+.twitter {
+  display: flex;
+}
+.twitter:hover .twitter-logo2 {
+  left: 0;
+}
+.twitter:hover .twitter-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+.twitter .twitter-logo {
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.twitter-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.twitter-logo2 {
+  background-color: #87CEEB;
+}
+.twitter-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.twitter-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.twitter-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.twitter {
+  display: flex;
+}
+.twitter:hover .twitter-logo2 {
+  left: 0;
+}
+.twitter:hover .twitter-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.twitter-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.twitter-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  line-height: 35px;
+  width: 0;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.twitter-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.twitter-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.facebook {
+  display: flex;
+}
+.facebook:hover .facebook-logo2 {
+  left: 0;
+}
+.facebook:hover .facebook-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.facebook-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.facebook-logo2 {
+  background-color: #4682B4;
+}
+.facebook-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.facebook-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.facebook-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 {
+  background-color: #1E90FF;
+}
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.instagram {
+  display: flex;
+}
+.instagram:hover .instagram-logo2 {
+  left: 0;
+}
+.instagram:hover .instagram-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.instagram-logo1 img {
+  width: 75px;
+  height: 75px;
+}
+
+.instagram-logo2 {
+  background-color: #008000;
+}
+.instagram-logo2 img {
+  width: 95px;
+  height: 95px;
+}
+
+.instagram-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.instagram-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.youtube {
+  display: flex;
+}
+.youtube:hover .youtube-logo2 {
+  left: 0;
+}
+.youtube:hover .youtube-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.youtube-logo1 img {
+  width: 70px;
+  height: 70px;
+}
+
+.youtube-logo2 {
+  background-color: #DC143C;
+}
+.youtube-logo2 img {
+  width: 90px;
+  height: 90px;
+}
+
+.youtube-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.youtube-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.tumblr {
+  display: flex;
+}
+.tumblr:hover .tumblr-logo2 {
+  left: 0;
+}
+.tumblr:hover .tumblr-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.tumblr-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.tumblr-logo2 {
+  background-color: #191970;
+}
+.tumblr-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.tumblr-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.tumblr-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin:hover .linkedin-logo2 {
+  left: 0;
+}
+.linkedin:hover .linkedin-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.linkedin-logo1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.linkedin-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.linkedin-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+.dribbble {
+  display: flex;
+}
+.dribbble:hover .dribbble-logo2 {
+  left: 0;
+}
+.dribbble:hover .dribbble-description {
+  width: 630px;
+  padding: 30px 10px 10px 10px;
+}
+
+.dribbble-logo1 img {
+  width: 60px;
+  height: 60px;
+}
+
+.dribbble-logo2 {
+  background-color: #FF69B4;
+}
+.dribbble-logo2 img {
+  width: 75px;
+  height: 75px;
+}
+
+.dribbble-description h2 {
+  font-size: 64px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.dribbble-description P {
+  font-size: 24px;
+  font-family: Arial;
+  width: 630px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,40 @@
+@mixin logo ($flex,$relative,$transition,$hidden){
+  display: $flex;
+  position: $relative;
+  transition: $transition;
+  overflow: $hidden;
+}
+@mixin logo1 ($w,$h,$flex,$center,$center2,$br,$transition){
+  width: $w;
+  height: $h;
+  display: $flex;
+  align-items: $center;
+  justify-content: $center2;
+  border-right: $br;
+  transition: $transition; 
+}
+@mixin logo2 ($w,$h,$flex,$center,$center2,$br,$transition,$abcolute,$left){
+  width: $w;
+  height: $h;
+  display: $flex;
+  align-items: $center;
+  justify-content: $center2;
+  border-right: $br;
+  transition: $transition;
+  position: $abcolute;
+  left: $left;
+}
+@mixin description ($flex,$column,$center,$bck,$line,$w,$transition,$hidden){
+  display: $flex;
+  flex-direction: $column;
+  justify-content: $center;
+  background-color: $bck;
+  line-height: $line;
+  width: $w;
+  transition: $transition;
+  overflow: $hidden;
+}
+
+
+
+

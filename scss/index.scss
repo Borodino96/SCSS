@@ -1,0 +1,519 @@
+
+@use 'mixins';
+$logo-bgcolor: #00BFFF;
+$description-text-size: 24px;
+$description-h2-size: 64px;
+$family: Arial;
+$description-width: 630px;
+.logo {
+  @include mixins.logo (flex,relative,all .5s ease-in-out,hidden);
+}
+.logo-part1 {
+  @include mixins.logo1 (100px,300px,flex, center,center,1px solid rgb(5, 5, 110),all .5s ease-in-out);
+}
+.logo-part2 {
+  @include mixins.logo2 (100px,300px,flex,center,center,1px solid rgb(5, 5, 110),all .5s ease-in-out,absolute,100%);
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(255, 99, 71), rgba(255, 160, 122
+  ))
+}
+.social {
+  margin-top: 20vh;
+  display: flex;
+  background: linear-gradient(to right, rgba(0, 191, 255), rgba(100, 149, 237) ) }
+.twitter {
+  display: flex;
+&:hover .twitter-logo2 {
+  left: 0;
+}
+&:hover .twitter-description {
+  width: $description-width;
+  padding: 30px 10px 10px 10px;
+}
+  .twitter-logo {
+    @include mixins.logo (flex,relative,all .5s ease-in-out,hidden);
+  }
+}
+.twitter-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.twitter-logo2 {
+ background-color: #87CEEB;
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.twitter-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.twitter {
+  display: flex;
+&:hover .twitter-logo2 {
+  left: 0;
+}
+&:hover .twitter-description {
+  width: $description-width;
+  padding: 30px 10px 10px 10px;
+}
+}
+.twitter-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.twitter-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.description {
+  @include mixins.description (flex,column,center,#fff,35px,0,all .5s ease-in-out,hidden);
+}
+.twitter-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.facebook {
+  display: flex;
+  &:hover .facebook-logo2 {
+    left: 0;
+  }
+  &:hover .facebook-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.facebook-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.facebook-logo2 {
+  background-color: #4682B4;
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.facebook-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  background-color: #1E90FF;
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.instagram {
+  display: flex;
+  &:hover .instagram-logo2 {
+    left: 0;
+  }
+  &:hover .instagram-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.instagram-logo1 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.instagram-logo2 {
+  background-color: #008000;
+  img {
+    width: 95px;
+    height: 95px;
+  }
+}
+.instagram-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.youtube {
+  display: flex;
+  &:hover .youtube-logo2 {
+    left: 0;
+  }
+  &:hover .youtube-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.youtube-logo1 {
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.youtube-logo2 {
+  background-color: #DC143C;
+  img {
+    width: 90px;
+    height: 90px;
+  }
+}
+.youtube-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.tumblr {
+  display: flex;
+  &:hover .tumblr-logo2 {
+    left: 0;
+  }
+  &:hover .tumblr-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.tumblr-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.tumblr-logo2 {
+  background-color: #191970;
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.tumblr-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.linkedin {
+  display: flex;
+  &:hover .linkedin-logo2 {
+    left: 0;
+  }
+  &:hover .linkedin-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.linkedin-logo1 {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.linkedin-logo2 {
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.linkedin-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
+.dribbble {
+  display: flex;
+  &:hover .dribbble-logo2 {
+    left: 0;
+  }
+  &:hover .dribbble-description {
+    width: $description-width;
+    padding: 30px 10px 10px 10px;
+}
+}
+.dribbble-logo1 {
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+.dribbble-logo2 {
+ background-color: #FF69B4;
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}
+.dribbble-description {
+  & h2 {
+    font-size: $description-h2-size;
+    font-family: $family;
+    margin-bottom: 20px;
+  }
+  & P {
+    font-size: $description-text-size;
+    font-family: $family;
+    width: $description-width;
+  }
+}
